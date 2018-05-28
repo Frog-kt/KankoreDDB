@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>艦これDDB</title>
+</head>
+<body>
+    <head>
+        <h1>艦これDDB</h1>
+    </head>
+    <main>
+        <h2>艦これドロップデータベース（仮)</h2>
+        <h3>使い方</h3>
+        <p>艦娘の名前を入れて検索すると、ドロップ場所・難易度・経験地・作戦名を表示してくれます。</p>
+        <br>
+        <form method="post" action="output.php">
+
+            <div id="shipName">
+                <h4>キャラクター名を入れて検索</h4>
+                <p>全角英数字は使えません</p>
+                <input type="text" name="shipNameText" placeholder="例:島風 伊19">
+                <input type="submit" value="検索">
+            </div>
+
+            <p>=====================================</p>
+
+            <div id="shipType">
+            <!--
+            <h4>艦種を選んでリストを表示 *未対応</h4>
+               <p>艦種</p>
+                <select name="ship_type" id="ship_type">
+                    <option value="駆逐">駆逐</option>
+                    <option value="軽巡">軽巡</option>
+                    <option value="軽母">軽母</option>
+                    <option value="工作">工作</option>
+                    <option value="重巡">重巡</option>
+                    <option value="水母">水母</option>
+                    <option value="正母">正母</option>
+                    <option value="戦艦">戦艦</option>
+                    <option value="潜水">潜水</option>
+                    <option value="潜母">潜母</option>
+                    <option value="潜母艦">潜母艦</option>
+                    <option value="装母">装母</option>
+                    <option value="補給">補給</option>
+                    <option value="揚陸">揚陸</option>
+                </select>
+                <input type="button" value="検索">
+                -->
+            </div>
+        </form>
+    </main>
+</body>
+</html>
