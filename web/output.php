@@ -1,8 +1,8 @@
 <?php
 
 //SQLログイン用情報
-$db_user = "root";
-$db_pass = "";
+$db_user = "user";
+$db_pass = "pass";
 $db_host = "localhost";
 $db_name = "kankore";
 $db_type = "mysql";
