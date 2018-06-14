@@ -68,6 +68,7 @@ $pdo = null;
 <head>
     <meta charset="UTF-8">
     <title>艦これDDB</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <head>
@@ -107,5 +108,12 @@ $pdo = null;
         <p></p>
       </div>
     </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="index.html">もどる</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

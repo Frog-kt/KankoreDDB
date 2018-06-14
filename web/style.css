@@ -1,0 +1,16 @@
+@charset UTF-8;
+
+ul{
+    list-style: none;
+}
+
+li a{
+    height: 40px;
+    width: 100px;
+    display: block;
+    line-height: 3.0;
+    font-size: auto;
+    border: 1px solid #000;
+    text-align: center;
+    background: white;
+}
